@@ -1,0 +1,11 @@
+C:\Users\julia.voronetskaja\source\repos\MyShop\MyShop\bin\Debug\netcoreapp3.0\MyShop.exe
+C:\Users\julia.voronetskaja\source\repos\MyShop\MyShop\bin\Debug\netcoreapp3.0\MyShop.deps.json
+C:\Users\julia.voronetskaja\source\repos\MyShop\MyShop\bin\Debug\netcoreapp3.0\MyShop.runtimeconfig.json
+C:\Users\julia.voronetskaja\source\repos\MyShop\MyShop\bin\Debug\netcoreapp3.0\MyShop.runtimeconfig.dev.json
+C:\Users\julia.voronetskaja\source\repos\MyShop\MyShop\bin\Debug\netcoreapp3.0\MyShop.dll
+C:\Users\julia.voronetskaja\source\repos\MyShop\MyShop\bin\Debug\netcoreapp3.0\MyShop.pdb
+C:\Users\julia.voronetskaja\source\repos\MyShop\MyShop\obj\Debug\netcoreapp3.0\MyShop.csprojAssemblyReference.cache
+C:\Users\julia.voronetskaja\source\repos\MyShop\MyShop\obj\Debug\netcoreapp3.0\MyShop.AssemblyInfoInputs.cache
+C:\Users\julia.voronetskaja\source\repos\MyShop\MyShop\obj\Debug\netcoreapp3.0\MyShop.AssemblyInfo.cs
+C:\Users\julia.voronetskaja\source\repos\MyShop\MyShop\obj\Debug\netcoreapp3.0\MyShop.dll
+C:\Users\julia.voronetskaja\source\repos\MyShop\MyShop\obj\Debug\netcoreapp3.0\MyShop.pdb
