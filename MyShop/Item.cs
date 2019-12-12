@@ -14,9 +14,21 @@ namespace MyShop
             quantity = _quantity;
         }
 
-        public string Article {
+        public Article Article
+        {
+            get { return article; }
+        }
+       /* public string Article {
             get { return $"ID: {article.Id} \n Name: {article.Name} \n Category: {article.Category} " +
-                    $"\n Price: {article.Price}\n Quantity: {quantity}"; }
+                    $"\n Price: {article.Price}\n Quantity: {quantity} \n " +
+                    $"Total: {CalculateItemTotal()}"; }
+        }*/
+
+        public void PrintItem()
+        {
+            Console.WriteLine($"ID: {article.Id} \n Name: {article.Name} \n Category: {article.Category} " +
+                    $"\n Price: {article.Price}\n Quantity: {quantity} \n " +
+                    $"Total: {CalculateItemTotal()}");
         }
 
         public double CalculateItemTotal()
