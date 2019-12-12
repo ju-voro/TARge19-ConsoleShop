@@ -15,7 +15,7 @@ namespace MyShop
         }
 
         public string Article {
-            get { return $"Name: {article.Name} \n Category: {article.Category} " +
+            get { return $"ID: {article.Id} \n Name: {article.Name} \n Category: {article.Category} " +
                     $"\n Price: {article.Price}\n Quantity: {quantity}"; }
         }
 

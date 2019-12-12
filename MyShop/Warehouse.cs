@@ -66,7 +66,7 @@ namespace MyShop
             }
         }
 
-        //TODO Add Add Item to cart option
+        //Get an article object from the list
         public Article GetFromStock(int id)
         {
             return InStock[id-1];
