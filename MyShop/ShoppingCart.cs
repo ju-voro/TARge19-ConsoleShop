@@ -7,10 +7,17 @@ namespace MyShop
     class ShoppingCart
     {
         List<Item> shoppingCart;
+        double total;
 
         public ShoppingCart()
         {
             shoppingCart = new List<Item>();
+            total = 0;
+        }
+
+        public double Total
+        {
+            get { return total; }
         }
 
         public void AddToShoppingCart(Article article, int quantity)
@@ -44,6 +51,13 @@ namespace MyShop
                 }
             }
             
+        }
+
+        public void PrintTotal()
+        {
+           foreach(Item item in shoppingCart) {
+                total += item.CalculateItemTotal();
+           }
         }
 
        

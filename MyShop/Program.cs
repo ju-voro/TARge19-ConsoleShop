@@ -26,6 +26,11 @@ namespace MyShop
                     Console.WriteLine("Enter the id of the product to remove from the shopping cart: ");
                     int itemIdToRemove = int.Parse(Console.ReadLine());
                     shoppingCart.RemoveFromShoppingCart(itemIdToRemove);
+                }else if (userInput == "confirm")
+                {
+                    shoppingCart.PrintTotal();
+                    Console.WriteLine($"Shopping cart total: {shoppingCart.Total}");
+                    break;
                 }
                 
             }
